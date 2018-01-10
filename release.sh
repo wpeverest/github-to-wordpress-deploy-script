@@ -24,7 +24,7 @@ GITHUB_ACCESS_TOKEN="TOKEN"
 # The slug of your WordPress.org plugin
 PLUGIN_SLUG="your-slug-here"
 
-# WordPress.org Username
+# The WordPress.org username
 WP_USER_NAME="wordpress-org-username"
 
 # GITHUB user who owns the repo
@@ -113,10 +113,9 @@ rm -f .jshintrc
 rm -f .stylelintrc
 rm -f composer.json
 rm -f composer.lock
+rm -f phpcs.xml
 rm -f phpunit.xml
 rm -f phpunit.xml.dist
-rm -f dev.ruleset.xml
-rm -f phpcs.ruleset.xml
 rm -f README.md
 rm -f .coveralls.yml
 rm -f .editorconfig
