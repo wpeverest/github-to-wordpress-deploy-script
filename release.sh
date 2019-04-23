@@ -103,6 +103,7 @@ rm -Rf .wordpress-org
 rm -Rf tests
 rm -Rf apigen
 rm -f .babelrc
+rm -f .browserslistrc
 rm -f .jshintrc
 rm -f .eslintrc
 rm -f .eslintignore
